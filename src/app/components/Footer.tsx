@@ -12,12 +12,12 @@ export const Footer = () => {
           <div className="text-center">
             <a 
               href="/" 
-              className="text-2xl md:text-3xl font-poppins font-semibold hover:text-[#e9343b] transition-colors"
+              className="text-2xl md:text-3xl font-poppins font-semibold hover:text-[#df5128] transition-colors"
             >
-              Akash Pasricha
+              Prateek Suri
             </a>
             <p className="text-gray-400 mt-2 text-sm">
-              Author of Lost Secret: The Hidden Truth of Nalanda
+              Indian-born Entrepreneur and Investor
             </p>
           </div>
 
@@ -25,18 +25,18 @@ export const Footer = () => {
           <div>
             <div className="flex justify-center mt-12 space-x-4">
               <a 
-                href="https://twitter.com/akashpasricha" 
+                href="https://x.com/iamprateek_suri" 
                 target="_blank" 
                 rel="noopener noreferrer"
-                className=" text-white p-3 rounded-full hover:bg-red-700 bg-[#e9343b] transition-colors"
+                className=" text-white p-3 rounded-full hover:bg-orange-800 bg-[#df5128] transition-colors"
               >
                 <Twitter className="w-4 h-4" />
               </a>
               <a 
-                href="https://instagram.com/akashpasricha" 
+                href="https://www.instagram.com/prateeksurii?igsh=M2k3ZWh2YWkzcXZo" 
                 target="_blank" 
                 rel="noopener noreferrer"
-                className=" text-white p-3 rounded-full hover:bg-red-700 bg-[#e9343b] transition-colors"
+                className=" text-white p-3 rounded-full hover:bg-orange-800 bg-[#df5128] transition-colors"
               >
                 <Instagram className="w-4 h-4" />
               </a>
@@ -44,13 +44,13 @@ export const Footer = () => {
                 href="https://linkedin.com/in/akashpasricha" 
                 target="_blank" 
                 rel="noopener noreferrer"
-                className=" text-white p-3 rounded-full hover:bg-red-700 bg-[#e9343b] transition-colors"
+                className=" text-white p-3 rounded-full hover:bg-orange-800 bg-[#df5128] transition-colors"
               >
                 <Linkedin className="w-4 h-4" />
               </a>
               <a 
                 href="mailto:contact@akashpasricha.com" 
-                className=" text-white p-3 rounded-full hover:bg-red-700 bg-[#e9343b] transition-colors"
+                className=" text-white p-3 rounded-full hover:bg-orange-800 bg-[#df5128] transition-colors"
               >
                 <Mail className="w-4 h-4" />
               </a>
@@ -60,7 +60,7 @@ export const Footer = () => {
         {/* Bottom Bar */}
         <div className="border-t mt-8 pt-8 text-center">
             <p className="text-gray-400 text-sm">
-              &copy; {new Date().getFullYear()} Akash Pasricha. All rights reserved.
+              &copy; {new Date().getFullYear()} Prateek Suri. All rights reserved.
             </p>
         </div>
       </div>

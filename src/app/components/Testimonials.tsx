@@ -15,39 +15,39 @@ import {
 const testimonialsData = [
   {
     id: 1,
-    quote: "Lost Secret is an absolute masterpiece! The way it weaves ancient history with modern espionage is brilliant. Kabir and Reeya's chase across India had me on the edge of my seat. Couldn't put it down!",
-    authorName: "Priya Sharma",
+    quote: "An inspiring and practical read on leadership and entrepreneurship, Gateway to Africa shares real lessons from building global businesses. With honesty and clarity, Prateek Suri shows how innovation, resilience, and smart decisions drive lasting success. Blending personal insights with universal lessons, it’s a valuable guide for anyone interested in entrepreneurship, growth, and creating meaningful impact.",
+    authorName: "Kaushiki Goyal",
     rating: 5,
   },
   {
     id: 2,
-    quote: "What a thrilling ride! The connection between wootz steel and thorium energy was fascinating. The author's research is impeccable, and the storytelling is gripping. Best thriller I've read this year!",
-    authorName: "Rajesh Kumar",
-    rating: 5,
-  },
-  {
-    id: 3,
-    quote: "Incredible blend of history and science fiction. The archaeological sites of India come alive in this story. The conspiracy theory feels so plausible it's scary. Highly recommended!",
-    authorName: "Anjali Mehta",
+    quote: "Gateway to Africa by Prateek Suri blends memoir and business strategy, tracing his journey from an engineer in Delhi to a leading entrepreneur in Africa. Through honest stories of setbacks and success, Suri shares lessons on resilience, cultural understanding, and spotting opportunities in complex markets. Both inspiring and practical, it’s a must-read for entrepreneurs, investors, and anyone interested in building meaningful ventures in emerging economies.",
+    authorName: "Mahek b.",
     rating: 4,
   },
   {
+    id: 3,
+    quote: "Gateway to Africa by Prateek Suri blends honest storytelling with real business lessons, making it both inspiring and practical. Suri shares not just his successes but also the failures and challenges that shaped his journey from Delhi to Africa. Through his experiences, readers gain insights into resilience, cultural adaptability, and turning uncertainty into opportunity—a valuable read for entrepreneurs, leaders, and anyone chasing bold goals.",
+    authorName: "Vyomika",
+    rating: 5,
+  },
+  {
     id: 4,
-    quote: "From Nalanda to modern espionage - this book has everything! The character development is excellent, and the pace never slows down. A must-read for thriller lovers.",
-    authorName: "Vikram Patel",
+    quote: "Gateway to Africa by Prateek Suri is an honest and inspiring journey through ambition, learning, and perseverance. Suri shares both successes and struggles, offering real lessons on courage, adaptability, and belief in possibility. Simple yet powerful, the book leaves readers motivated and reflective—a must-read for anyone striving to create something meaningful.",
+    authorName: "Vivek Burile",
     rating: 5,
   },
   {
     id: 5,
-    quote: "Lost Secret kept me awake all night! The way ancient secrets connect to modern technology is genius. Reeya Ghosh is my new favorite fictional historian. Brilliant work!",
-    authorName: "Meera Reddy",
+    quote: "Gateway to Africa isn’t just a business book—it’s a powerful story of ambition, risk, and reinvention. Prateek Suri shares his journey with honesty, showing how perseverance and courage built real success across continents. Through lessons on innovation, culture, and timing, he reveals what true entrepreneurship looks like. Bold, insightful, and inspiring, it’s a must-read for anyone aiming to create global impact.",
+    authorName: "Priyankshi",
     rating: 5,
   },
   {
     id: 6,
-    quote: "Absolutely loved this book! The tension builds perfectly throughout, and the climax is explosive. The author's knowledge of Indian history and archaeology is impressive. Five stars!",
-    authorName: "Arjun Singh",
-    rating: 5,
+    quote: "Gateway to Africa by Prateek Suri offers a clear and inspiring look at Africa’s business and investment potential. Balancing opportunities with challenges, it provides practical insights for entrepreneurs, investors, and curious readers aiming to explore new markets and global growth.",
+    authorName: "Rajashree Hatkar",
+    rating: 4,
   },
 ];
 
@@ -88,8 +88,8 @@ export const Testimonials = () => {
     <section id="testimonials" className="py-16 overflow-hidden">
       <div className="max-w-7xl mx-auto px-4 md:px-6">
         <div className="text-center mb-16">
-          <h2 className="text-4xl md:text-5xl font-poppins font-semibold text-gray-900 mb-4">
-            Reader <span className="text-[#e9343b]">Reviews</span>
+          <h2 className="text-4xl md:text-5xl font-poppins font-semibold text-[#184151] mb-4">
+            Reader <span className="text-[#df5128]">Reviews</span>
           </h2>
         </div>
 
@@ -116,7 +116,7 @@ export const Testimonials = () => {
                     <div className="relative bg-white shadow-xl transition-all duration-300 border border-gray-200 min-h-[320px] flex flex-col">
                       {/* Quote Icon - Fixed positioning */}
                       <div className="absolute -top-6 left-8 z-10">
-                        <div className="bg-gray-800 p-4 shadow-lg">
+                        <div className="bg-[#df5128] p-4 shadow-lg">
                           <Quote className="w-6 h-6 text-white" />
                         </div>
                       </div>
@@ -132,7 +132,7 @@ export const Testimonials = () => {
 
                         {/* Testimonial Quote */}
                         <blockquote className="text-gray-700 text-lg leading-relaxed text-center mb-8 font-medium italic flex-1 flex items-center">
-                          <span>"{testimonial.quote}"</span>
+                          <span className="line-clamp-6 md:line-clamp-none">"{testimonial.quote}"</span>
                         </blockquote>
 
                         {/* Author Information */}

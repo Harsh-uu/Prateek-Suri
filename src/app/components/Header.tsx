@@ -4,7 +4,6 @@ const navLinks = [
   { href: "#about-the-book", label: "About" },
   { href: "#founder", label: "Author" },
   { href: "#testimonials", label: "Reviews" },
-  { href: "#media-inquiries", label: "Media Inquiry" },
 ];
 
 export const Header = () => {
@@ -17,7 +16,7 @@ export const Header = () => {
   };
 
   return (
-    <header className="font-poppins text-white">
+    <header className="font-poppins text-[#15424d]">
       <div className="max-w-7xl mx-auto flex justify-end items-center px-4 py-6">
 
         <nav className="hidden md:flex items-center gap-4 md:gap-8 text-xs md:text-sm font-medium uppercase">
@@ -28,7 +27,7 @@ export const Header = () => {
               className="relative group transition-colors"
             >
               {link.label}
-              <span className="absolute bottom-0 left-0 w-0 h-0.5 bg-[#e9343b] transition-all duration-300 group-hover:w-full"></span>
+              <span className="absolute bottom-0 left-0 w-0 h-0.5 bg-[#15424d] transition-all duration-300 group-hover:w-full"></span>
             </button>
           ))}
         </nav>

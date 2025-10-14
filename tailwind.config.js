@@ -49,6 +49,10 @@ module.exports = {
   				'var(--font-allerta)',
   				'serif'
   			],
+  			barlow: [
+  				'var(--font-barlow)',
+  				'serif'
+  			],
   		},
   		colors: {
   			rose: {

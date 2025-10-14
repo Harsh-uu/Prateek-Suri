@@ -10,8 +10,8 @@ export const Founder = () => {
       <div className="max-w-7xl mx-auto px-4">
         {/* --- Heading (Outside the Container) --- */}
         <div className="text-center mb-12 md:mb-16">
-          <h2 className="text-4xl md:text-5xl font-poppins font-semibold text-gray-800">
-            Meet The <span className="text-[#e9343b]">Author</span>
+          <h2 className="text-4xl md:text-5xl font-poppins font-semibold text-[#184151]">
+            Meet The <span className="text-[#df5128]">Author</span>
           </h2>
         </div>
 
@@ -21,7 +21,7 @@ export const Founder = () => {
           <div className="md:w-1/2 w-full">
             <div className="relative w-full h-72 md:h-full lg:h-full">
               <Image
-                src="/Akash.png"
+                src="/prateek.jpg"
                 alt="Akash Pasricha"
                 fill
                 className="object-cover object-center"
@@ -33,17 +33,13 @@ export const Founder = () => {
 
           {/* --- Text Content Column (Second) --- */}
           <div className="lg:w-1/2 md:w-[60%] w-full flex flex-col justify-center p-8 md:p-12 lg:p-16 text-center lg:text-left">
-            <h1 className="text-3xl font-semibold">Akash Pasricha</h1>
+            <h1 className="text-3xl font-semibold">Prateek Suri</h1>
            
-            <p className="text-gray-600 lg:text-lg leading-relaxed mt-4">
-              Akash Pasricha is an avid traveller and has lived in India, the
-              USA and Latin America. He enjoys living like the locals, learning
-              their customs and language when possible. His interests include
-              skiing, drumming, hiking, and cooking. This is his first book to expand the knowledge and provide
-              inspiration through Indian history, in hopes of unlocking the
-              hidden potential of a people. He lives in New Delhi and
-              California, splitting his time between his family and his passion
-              for Indian history.
+            <p className="text-gray-600 lg:text-lg leading-relaxed mt-4 hidden sm:block">
+              Prateek Suri is an entrepreneur, investor, and visionary who turned bold ideas into billion-dollar realities. A BITS Pilani graduate from Delhi, he founded Maser Group and grew it into a $5 billion enterprise that made technology accessible across Africa. Through MDR Investments, he continues to drive innovation in infrastructure, AI, and real estate while empowering communities across the continent. Gateway to Africa captures his journey, lessons, and vision for those who dare to build where others hesitate.
+            </p>
+            <p className="text-gray-600 lg:text-lg leading-relaxed mt-4 sm:hidden">
+              Prateek Suri is an entrepreneur, investor, and visionary who turned bold ideas into billion-dollar realities. A BITS Pilani graduate from Delhi, he founded Maser Group and grew it into a $5 billion enterprise that made technology accessible across Africa. Gateway to Africa captures his journey, lessons, and vision for those who dare to build where others hesitate.
             </p>
           </div>
         </div>

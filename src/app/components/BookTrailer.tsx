@@ -32,17 +32,18 @@ export const BookTrailer = () => {
         playerRef.current = new window.YT.Player(containerRef.current, {
           height: '100%',
           width: '100%',
-          videoId: 'ekVUUKsWZig',
+          videoId: 'M0VXSZvsgyw',
           playerVars: {
             autoplay: 0,
             mute: 1,
             loop: 1,
-            playlist: 'ekVUUKsWZig',
-            controls: 1,
+            playlist: 'M0VXSZvsgyw',
+            controls: 0,
             showinfo: 0,
             rel: 0,
             modestbranding: 1,
             iv_load_policy: 3,
+            start: 1524,
           },
           events: {
             onReady: () => {
@@ -106,11 +107,11 @@ export const BookTrailer = () => {
     <section ref={sectionRef} className="py-16 bg-gray-50">
       <div className="max-w-4xl mx-auto px-6">
         <div className="text-center mb-12">
-          <h2 className="text-4xl md:text-5xl font-poppins font-semibold text-gray-900 mb-4">
-            Book <span className="text-[#e9343b]">Trailer</span>
+          <h2 className="text-4xl md:text-5xl font-poppins font-semibold text-[#184151] mb-4">
+            Insights for  <span className="text-[#df5128]">Innovators</span>
           </h2>
           <p className="text-lg text-gray-600">
-            Get a glimpse into the thrilling world of Lost Secret
+            Uncover the ideas driving Gateway to Africa
           </p>
         </div>
 
