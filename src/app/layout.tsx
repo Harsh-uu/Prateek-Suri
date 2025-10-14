@@ -13,8 +13,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Akash Pasricha",
-  description: "Author of Lost Secret.",
+  title: "Prateek Suri",
+  description: "Author of Gateway to Africa.",
 };
 
 export default function RootLayout({
