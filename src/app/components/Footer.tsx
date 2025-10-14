@@ -5,7 +5,7 @@ import { Facebook, Instagram, Twitter, Linkedin, Mail } from "lucide-react";
 
 export const Footer = () => {
   return (
-    <footer className="text-gray-900">
+    <footer className="text-gray-900 bg-[#fffffc]">
       <div className="max-w-6xl mx-auto px-4 py-12">
         
           {/* Website Name / Brand */}

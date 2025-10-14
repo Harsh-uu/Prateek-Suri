@@ -33,18 +33,18 @@ export default function Home() {
         <div className="relative isolate overflow-hidden">
           {/* Additional content can go here */}
         </div>
-         <div className="px-4 relative overflow-hidden">
+         <div className="px-4 relative overflow-hidden bg-[#fffffc]">
           <AboutTheBook/>
         </div>
         
         {/* Book Trailer Section */}
         <BookTrailer />
         
-        <div className="px-4 relative isolate overflow-hidden ">
+        <div className="px-4 relative isolate bg-[#fffffc] overflow-hidden ">
           <Founder />
         </div>
         
-        <div className="px-4 relative overflow-hidden bg-gray-50">
+        <div className="px-4 relative overflow-hidden bg-[#fffaee]">
           <Testimonials/>
         </div>
       
